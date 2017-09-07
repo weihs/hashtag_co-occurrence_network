@@ -1,0 +1,26 @@
+number_of_days: 55
+number_of_top_hashtags: 100
+origin_aggregation_list: 'GNIP_hashtag_daily_frequency_' #this is the prefix of all daily hashtag frequency list
+result_aggregation_list: 'GNIP_aggregated_hashtag_daily_frequency_' #this is the prefix of all daily hashtag frequency list after aggregation
+origin_aggregation_matrix: 'co_occurrence_' #this is the prefix of all daily hashtag co-occurrence matrix
+result_aggregation_matrix: 'aggregated_co_occurrence_' #this is the prefix of all daily hashtag co-occurrence matrix after aggregation
+classification_file: 'hashtag_classification.json' # this file indicate which kind (leave/remain/plain topic) a hashtag is
+data_directory: 'dailydata/' # this is the dicitonary for data storage
+
+without_aggregation_graphml_filename: 'days_inconsistency_graph_without_aggregation.graphml'
+with_aggregation_graphml_filename: 'days_inconsistency_graph_with_aggregation.graphml'
+without_aggregation_combine_matrix: 'combine_matrix.npy'
+with_aggregation_combine_matrix: 'aggregated_combine_matrix.npy'
+
+inference_result_graphml_filename: days_inconsistency_graph_without_aggregation_with_label.graphml' #the result graphml file of hashtag classification
+inital_probabolity_file: 'inital_probabolity.json' # inital probabolity of hashtag with a pro-remain label
+
+aggregated_graph_with_label: 'days_aggregated_graph_with_label'
+
+pure-polarity_graphml_filename: 'days_pure-polarity.graphml'
+main-part_graphml_filename: 'days_main-part.graphml'
+
+rendered_graphml_filename: 'days_rendered_graph.graphml'
+
+# stage2_origin_prefix: 'co_occurrence_'
+# inital_graphml_name: '55days_inconsistency_graph_without_aggregation.graphml'

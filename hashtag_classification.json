@@ -1,0 +1,23 @@
+{
+    "neutral":
+    [
+        "Brexit","EUref","btexit","EURef","EUreferendum","EU","BREXIT", "euref",
+        "EURefResults","EURO2016","InOrOut","referendum","EUReferendum","BrexitVote",
+        "Euref","BrexitOrNot","EuRef","brexit","INorOUT","EUREF","eureferendum","neutral"
+    ],
+    "leave":
+    [
+        "VoteLeave","LeaveEU","voteleave","Leave","leave","voteLEAVE","VoteLEAVE","Voteleave","voteLeave","voteout","LEAVEEU","VOTELEAVE","VoteOut","leaveeu","leaveEU","No2EU",
+        "StrongerOut","VoteOUT","LEAVE"
+
+    ],
+    "remain":
+    [
+        "Remain","VoteRemain","remain","StrongerIN","strongerin","StrongerIn","remainineu","Bremain","RemaininEU","REMAIN","Strongerin","voteremain","RemainInEU","RemainINEU",
+        "Votein","VoteIn","VoteStay"
+    ],
+    "topic":
+    [
+
+    ]
+}
